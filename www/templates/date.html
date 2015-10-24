@@ -1,0 +1,20 @@
+<ion-view view-title="Browse">
+  <ion-content>
+    <h1>Date Example</h1>
+
+      <label class="item item-input">
+          <span class="input-label">Start Date</span>
+          <input type="date" ng-model="date.start_date">
+      </label>
+
+      <label class="item item-input">
+          <span class="input-label">End Date</span>
+          <input type="date" ng-model="date.end_date">
+      </label>
+
+      <button class="button button-positive button-block save button-color" ng-click="date_save()">
+          SAVE
+      </button>
+
+  </ion-content>
+</ion-view>
